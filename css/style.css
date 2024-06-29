@@ -1,2 +1,43 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*||RESET*/
+
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img{
+    display:block;
+}
+
+/*||VARIABLES*/
+:root{
+    /*FONTS*/
+    --FONTS:"Figtree";
+
+    /*COLORS*/
+    --BGCOLOR:hsl(47, 88%, 63%);
+    --BODY-COLOR:hsl(0, 0%, 100%);
+    --FCB:hsl(0, 0%, 7%);
+    --FC-P1-P3-A:hsl(0, 0%, 7%);
+    --FCP2:hsl(0, 0%, 50%);
+    --BSC:hsl(0, 0%, 7%);
+
+    /*STANDARD PADDING*/
+    --PADDING-TB:0.5em;
+    /*BORDER*/
+    --BORDER:1px solid var(--FCB);
+    --BORDER-RADIUS:15px;
+}
+
+/*UTILITIES*/
+.offscreen{
+    position:absolute;
+    left: -1000px;
+}
+
+/*||GENERAL STYLES*/
