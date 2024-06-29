@@ -65,6 +65,7 @@ body{
     gap:1rem;
     border:var(--BORDER-MAIN);
     border-radius:20px;
+    box-shadow: 4px 4px 2px 2px var(--BSC);
 }
 
 .main__button{
