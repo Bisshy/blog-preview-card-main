@@ -60,7 +60,7 @@ body{
     display:flex;
     flex-direction: column;
     background-color: var(--BODY-COLOR);
-    width:374px;
+    max-width:340px;
     height:500px;
     padding:var(--PADDING-TB);
     gap:0.7rem;
