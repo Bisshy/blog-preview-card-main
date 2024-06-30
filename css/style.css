@@ -61,12 +61,14 @@ body{
     flex-direction: column;
     background-color: var(--BODY-COLOR);
     max-width:340px;
-    height:500px;
+    height:507px;
     padding:var(--PADDING-TB);
-    gap:0.7rem;
+    gap:1rem;
     border:var(--BORDER-MAIN);
     border-radius:20px;
     box-shadow: 4px 4px 2px 2px var(--BSC);
+   
+
 }
 
 .main__button{
@@ -107,6 +109,7 @@ a:active{
     justify-content: flex-start;
     align-items:center;
     gap:10px;
+    flex-flow:wrap;
 
 }
 .main__p3{
